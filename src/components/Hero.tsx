@@ -60,7 +60,7 @@ const Hero = () => {
                 {/* App Screenshot */}
                 <div className="h-full overflow-hidden">
                   <img 
-                    src="/lovable-uploads/eeb69ae2-ec81-4d88-8bdb-f8e2b88a8e6d.png" 
+                    src="/lovable-uploads/7accd5ed-cd2c-44d1-9757-f8edf6102c6d.png" 
                     alt="BallerBets App Screenshot" 
                     className="w-full h-full object-cover object-top"
                   />
