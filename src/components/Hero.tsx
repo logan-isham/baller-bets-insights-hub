@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Smartphone } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -47,7 +47,7 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right Content - App Screenshot Space */}
+          {/* Right Content - App Screenshot */}
           <div className="relative">
             <div className="relative mx-auto w-80 h-[600px] bg-gradient-to-br from-gray-900 to-gray-700 rounded-[3rem] p-2 shadow-2xl">
               {/* Phone Frame */}
@@ -57,14 +57,13 @@ const Hero = () => {
                   <div className="w-20 h-1 bg-white rounded-full"></div>
                 </div>
                 
-                {/* App Screenshot Placeholder */}
-                <div className="h-full bg-gradient-to-br from-blue-50 to-purple-50 flex flex-col items-center justify-center p-6 text-center">
-                  <Smartphone className="h-16 w-16 text-blue-600 mb-4" />
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">App Screenshot</h3>
-                  <p className="text-sm text-gray-600 mb-4">Place your BallerBets app screenshot here</p>
-                  <div className="w-full h-32 bg-white/50 rounded-lg border-2 border-dashed border-gray-300 flex items-center justify-center">
-                    <span className="text-xs text-gray-500">640 x 1280 recommended</span>
-                  </div>
+                {/* App Screenshot */}
+                <div className="h-full overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/08117c5b-c741-46bb-bc4d-2206fa78db67.png" 
+                    alt="BallerBets App Screenshot" 
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
               </div>
               
